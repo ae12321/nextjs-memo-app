@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import logoImage from "@/app/assets/logo.png";
 import topImage from "@/app/assets/top.svg";
+import { UserButton } from "@clerk/nextjs";
 
 // breakpoint: 1024px, lg, w-5xl, 64rem
 
