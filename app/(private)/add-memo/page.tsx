@@ -1,4 +1,4 @@
-import NewMemoForm from "@/components/layout/NewMemoForm";
+import NewMemoForm from "@/components/form/NewMemoForm";
 import React from "react";
 
 export default function AddMemoPage() {
