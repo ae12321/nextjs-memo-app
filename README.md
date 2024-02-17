@@ -10,7 +10,7 @@
 - shoud add memo (title, description, category, status)
 - should select or input category
 
-### list-memo
+### memos
 
 - should list memo
 - should be pagenation

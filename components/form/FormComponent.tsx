@@ -6,6 +6,7 @@ import { Input } from "../ui/input";
 type CustomFormFieldProps = {
   name: string;
   control: Control<any>;
+  label: string;
 };
 
 export const CustomFormField = (props: CustomFormFieldProps) => {
@@ -15,7 +16,7 @@ export const CustomFormField = (props: CustomFormFieldProps) => {
       name={props.name}
       render={({ field }) => (
         <FormItem>
-          <FormLabel>{props.name}</FormLabel>
+          <FormLabel>{props.label}</FormLabel>
           <FormControl>
             <Input {...field} />
           </FormControl>

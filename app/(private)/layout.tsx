@@ -1,5 +1,6 @@
 import Navbar from "@/components/layout/Navbar";
 import Sidebar from "@/components/layout/Sidebar";
+import { QueryClient } from "@tanstack/react-query";
 import React from "react";
 
 export default function layout({ children }: { children: React.ReactNode }) {

@@ -13,7 +13,7 @@ const links: LinkType[] = [
     icon: <PlusCircle />,
   },
   {
-    href: "/list-memo",
+    href: "/memos",
     title: "メモ一覧",
     icon: <List />,
   },
